@@ -2,7 +2,7 @@ https://valiantlynx.github.io/web-worker/
 
 # Simple Web Worker Example
 
-This is a simple web application that demonstrates the usage of web workers to perform computationally intensive tasks without blocking the main UI thread.
+This is a simple web application that demonstrates the usage of web workers to perform computationally intensive tasks without blocking the main thread.
 
 ## Features
 
