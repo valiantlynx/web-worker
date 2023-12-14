@@ -75,3 +75,11 @@ Contributions are welcome! If you have any suggestions, improvements, or feature
 
 ## License
 This project is licensed under the MIT License.
+
+### adding new projects with their own git history
+```sh
+git subtree add --prefix=apps/web-worker https://github.com/valiantlynx/web-worker.git master --squash
+git subtree pull --prefix=apps/web-worker https://github.com/valiantlynx/web-worker.git master --squash
+git subtree push --prefix=apps/web-worker https://github.com/valiantlynx/web-worker.git master
+
+```
